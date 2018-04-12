@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="utf-8">
+      <title>Replace</title>
+
+      <link rel="stylesheet" type="text/css" href="css/replace.css" />
+   </head>
+	
+   <body>
+      <!-- <aside>...</aside> -->
+      <header>
+          <h2>Replace by Index Number</h2>
+      </header>
+		
+      <article>
+         <section>
+             <div class="info-box">
+                <input type="text" id="newname" name="newname" placeholder="Enter new Name..." />
+                <input type="number" id="index" name="index" placeholder="Enter Index No..." />
+                <input type="button" value="Replace" onclick="replace()" />
+             </div>
+            <div class="student">
+                <ul>
+                    <li>
+                        <span class="count">Index</span>
+                        Name
+                    </li>
+                </ul>
+            </div> 
+            <div id="students" class="students"></div>
+            <div class="home-back-box">
+                <a class="page-link" href="home.html">Home</a>
+            </div>
+
+         </section>
+      </article>
+		
+      
+      <!-- <footer>...</footer> -->
+      <script src="scripts/replace.js"></script>
+   </body>
+</html>
