@@ -1,0 +1,113 @@
+body{
+    background: #ededed;
+    font-family: sans-serif;
+}
+header h2{
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.home-box{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    background: #fafafa;
+    padding: 10px;
+}
+.home-box a {
+    text-decoration: none;
+    color: #666666;
+    border: 2px solid #F32C52;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.home-box a:hover {
+    color: #325edc;
+    border: 2px solid #325edc;
+}
+
+.home-back-box{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    background: #fafafa;
+    padding: 10px;
+}
+.home-back-box a{
+    text-decoration: none;
+    color: #dddddd;
+}
+.home-back-box a:hover{
+    color: #325edc;
+}
+
+.info-box{
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    background: #666666;
+    padding: 10px;
+}
+.info-box input {
+    padding: 9px 30px;
+    margin: 0 3px;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.student {
+    width: 600px;
+    margin: auto;
+    background: #999999;
+    padding: 10px;
+}
+.student ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.student ul li {
+    padding-top: 7px;
+    color: #fff;
+}
+.student ul li .count {
+    padding: 7px 10px;
+    margin-right: 19px;
+}
+
+.students {
+    width: 600px;
+    margin: auto;
+    background: #fafafa;
+    padding: 10px;
+}
+.students ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.students ul li {
+    padding: 7px 0px;
+    color: #666666;
+    border-bottom: 2px solid #dddddd;
+}
+.students ul li .count {
+    padding: 7px 20px;
+    margin-right: 36px;
+    border-radius: 5px;
+}
